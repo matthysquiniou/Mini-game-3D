@@ -1,0 +1,103 @@
+{
+    "projects": {
+        "Catcheur": {
+            "additionalDependencies": [
+                "Render.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../src/framework/includes/",
+                "$(SolutionDir)../src/framework/includes/Core/",
+                "$(SolutionDir)../src/framework/includes/Render/"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)../lib/framework/"
+            ],
+            "dependencies": [
+                "framework"
+            ],
+            "dependents": [],
+            "guid": "54FC473B-5D7A-6337-0A46-773729390B20",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": true
+        },
+        "ShufflePuck": {
+            "additionalDependencies": [
+                "Render.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../src/framework/includes/",
+                "$(SolutionDir)../src/framework/includes/Core/",
+                "$(SolutionDir)../src/framework/includes/Render/"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)../lib/framework/"
+            ],
+            "dependencies": [
+                "framework"
+            ],
+            "dependents": [],
+            "guid": "465C7A77-1B2E-5B63-6767-025E45A20BCD",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": true
+        },
+        "Tron": {
+            "additionalDependencies": [
+                "Render.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../src/framework/includes/",
+                "$(SolutionDir)../src/framework/includes/Core/",
+                "$(SolutionDir)../src/framework/includes/Render/"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)../lib/framework/"
+            ],
+            "dependencies": [
+                "framework"
+            ],
+            "dependents": [],
+            "guid": "44FF6DF8-7083-11AD-103C-191E30BA5350",
+            "lib": false,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": true
+        },
+        "framework": {
+            "additionalDependencies": [
+                "Render.lib"
+            ],
+            "additionalIncludeDirectories": [
+                "$(SolutionDir)../src/framework/includes/",
+                "$(SolutionDir)../src/framework/includes/Core/",
+                "$(SolutionDir)../src/framework/includes/Render/"
+            ],
+            "additionalLibraryDirectories": [
+                "$(SolutionDir)../lib/framework/"
+            ],
+            "dependencies": [],
+            "dependents": [
+                "Catcheur",
+                "ShufflePuck",
+                "Tron",
+                "ShufflePuck"
+            ],
+            "guid": "55EE0E26-2657-3F29-24AD-27A479EB5083",
+            "lib": true,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "500F78A6-25A8-2840-49D4-5671543B48E9",
+    "solution_name": "Geo3DGames",
+    "startup_project": "framework",
+    "version": "1.17.4"
+}
